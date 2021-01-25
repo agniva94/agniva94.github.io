@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #1a1717;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,8 +98,9 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: #ffffff;
+		font-family: Georgia, Times, "Times New Roman", serif;
+		/*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -110,14 +111,14 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #49bf9d;
+		/*border-bottom: dotted 1px;*/
+		color: #ebd49b;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #ffd263 !important;
 			text-decoration: none;
 		}
 
@@ -135,7 +136,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #ffd263;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -190,7 +191,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #efefef;
+		border-bottom: solid 2px #ffd263;
 		margin: 2em 0;
 	}
 
@@ -199,7 +200,7 @@ input, select, textarea {
 		}
 
 	blockquote {
-		border-left: solid 6px #efefef;
+		border-left: solid 6px #ffd263;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 1.5em;
@@ -2446,7 +2447,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #ffd263 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
